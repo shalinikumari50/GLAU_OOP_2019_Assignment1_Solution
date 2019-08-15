@@ -20,6 +20,9 @@ public class Gravity {
         double distance;
         Scanner scanner = new Scanner(System.in);
         time = scanner.nextDouble();
+        speed = accOfGravity * time;
+        distance = (accOfGravity * time * time) / 2;
+
 
 
 
