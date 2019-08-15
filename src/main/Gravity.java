@@ -4,7 +4,6 @@
  * */
 package main;
 
-// import java.util.Scanner;
 // uncomment the above line to use input in your program.
 
 public class Gravity {
@@ -15,6 +14,12 @@ public class Gravity {
 		 *   b. Declare a constant for 'gravity', assume the value to be 9.8
 		 *   c. Calculate the result and print it to the screen.
 		 * */
+        double accOfGravity = 9.8;
+        double time;
+        double speed;
+        double distance;
+
+
 	}
 	// P.S: Refer to the README.md file for the problem statement, input & output.
 }
