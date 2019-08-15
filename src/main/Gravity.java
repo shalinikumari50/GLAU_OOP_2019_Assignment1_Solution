@@ -4,7 +4,7 @@
  * */
 package main;
 
-// uncomment the above line to use input in your program.
+import java.util.Scanner;// uncomment the above line to use input in your program.
 
 public class Gravity {
 	// TODO 1: Create the main method
@@ -18,6 +18,9 @@ public class Gravity {
         double time;
         double speed;
         double distance;
+        Scanner scanner = new Scanner(System.in);
+        time = scanner.nextDouble();
+
 
 
 	}
